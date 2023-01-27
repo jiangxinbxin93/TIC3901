@@ -2,10 +2,10 @@ import React from "react";
 import { Route,Routes } from "react-router-dom";
 
 
-import Navbar from "./navbar";
-import About from "./AboutPage";
-import UploadSearch from "./UploadPage";
-import Home from "./HomePage";
+import Navbar from "./NavBar/navbar";
+import About from "./AboutPage/AboutPage";
+import UploadSearch from "./UploadPage/UploadPage";
+import Home from "./HomePage/HomePage";
 
 
 const App=()=>{

@@ -1,0 +1,36 @@
+.UploadSection .Outer_layer {
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  margin: 0 1rem;
+  column-count: 2;
+}
+.UploadSection .Inner_layer img {
+  
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-left: 2rem;
+  
+}
+
+.UploadSection .Outer_layer li {
+  list-style-type: none;
+  text-align: center;
+  cursor: pointer;
+  list-style: none;
+  gap: 1rem;
+  list-style-type: none;
+  position: relative;
+  right: 15%;
+}
+
+.UploadSection .Inner_layer li {
+  position: relative;
+  right: -25%;
+  
+}
+
+.UploadSection .Outer_layer:hover{
+
+  opacity: 0.7;
+}

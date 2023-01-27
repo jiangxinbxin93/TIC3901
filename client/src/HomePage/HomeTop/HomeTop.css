@@ -1,0 +1,27 @@
+
+.HomeTop img {
+  
+  width: 100%;
+  height: auto;
+}
+.HomeTop .btn {
+  position: relative;
+  left: 60%;
+  bottom: 120px;
+  padding: 8px 20px;
+  cursor: pointer;
+  display: flex;
+  border-radius: 5px;
+  font-size: large;
+  margin: 5px;
+  border-style: double;
+  border-color: gainsboro;
+}
+.btn:hover {
+  opacity: 0.6;
+}
+
+.HomeTop .get_started {
+  background-color: black;
+  color: aliceblue;
+}
